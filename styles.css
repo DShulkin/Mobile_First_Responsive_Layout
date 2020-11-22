@@ -1,0 +1,241 @@
+/* ================================= 
+  Base Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+  color: #000;
+}
+
+p {
+	font-size: .95em;
+  margin-bottom: 1.5em;
+  color: gray;
+}
+
+h2,
+a {
+  color: #000;
+}
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+body {
+width: 100%;
+}
+
+.wrapper {
+width: 100%;
+
+}
+
+.contains {
+  padding: 0 20px 20px 20px;
+}
+
+.grouped {
+  background-color: #fafafa;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.name{
+  padding-top: 20px;
+
+}
+
+.main-nav li {
+  font-weight: 600;
+  background-color: #fff;
+  padding: 10px 0;
+  margin: 5px 0;
+  font-size: .75em;
+}
+
+.folio-title {
+  margin: 30px 0;
+  font-size: .8em;
+}
+
+.profile-img {
+  padding: 20px 60px 0 60px;
+}
+
+.main-captext {
+  padding: 10px 30px 30px 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.col p { 
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 7px;
+}
+
+.project-title {
+  font-weight: 400;
+  font-size: 1.125em;
+  display: block;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.main-footer {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 40px 20px;
+  
+}
+
+.contact-title {
+  font-size: .8em;
+  margin: 0;
+}
+
+.contact {
+  line-height: 2.4em;
+  padding-bottom: 20px;
+}
+
+.myname{
+  float: left;
+  font-size: .8em;
+
+}
+
+span a {
+  float: right;
+  font-size: .8em;
+
+}
+
+
+.last {
+  border-top: 1px solid rgb(196, 196, 196);
+}
+
+.info {
+  color: #747286;
+  font-weight: 600;
+  margin-left: 10px;
+  }
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+    .main-nav li {
+      list-style-type: none;
+      display: inline-block;
+      background: none;
+      margin: 1em;
+    }
+
+    .grouped {
+      padding-bottom: 40px;
+    }
+
+    .profile {
+      padding: 0 20px 0 20px;
+      margin: 0 auto;
+    }
+
+    .profile-img {
+      float: right;
+      width: 300px;
+      padding: 0;
+    }
+
+    .main-captext {
+      text-align: left; 
+      padding: 0; 
+      font-size: 1.2em;     
+    }
+
+    
+
+/*-------------------------------
+         768px  columns
+--------------------------------- */
+
+.contains {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+    .col {
+      width: 50%;
+    }
+
+    .col p {
+      font-size: 1.125em;
+    }
+
+    .left{
+      float: left;
+      padding-left: 20px;
+      padding-right: 10px;
+
+    }
+
+    .right{
+      float: right;
+      padding-right: 20px;
+      padding-left: 10px;
+
+    }
+
+
+    /* ------------------------------
+              768px  footer
+------------------------------------- */
+        
+      .footer-content {
+        width: 55%;
+        margin: 0 auto; 
+      }
+
+      .last {
+        margin: 0 auto;
+        width: 90%;
+      }
+      
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+}
+
+@media (min-width: 1024px) {
+
+}
