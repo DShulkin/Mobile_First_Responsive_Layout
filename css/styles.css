@@ -139,6 +139,10 @@ span a {
   border-top: 1px solid rgb(196, 196, 196);
 }
 
+.footer-nav {
+  display: none;
+}
+
 .info {
   color: #747286;
   font-weight: 600;
@@ -216,7 +220,6 @@ span a {
 
     }
 
-
     /* ------------------------------
               768px  footer
 ------------------------------------- */
@@ -224,19 +227,44 @@ span a {
       .footer-content {
         width: 55%;
         margin: 0 auto; 
+        position: relative;
       }
 
       .last {
         margin: 0 auto;
         width: 90%;
       }
+
+      .last span a {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+      }
+
+
+        .footer-nav {
+          font-weight: 600;
+          margin: 0;
+          font-size: .75em;
+          display: inherit;
+          position: absolute;
+          right: 57px;
+          margin-right:5px;
+        }
+
+        .footer-nav li {
+          display: inline-block;
+          list-style-type: none;
+          margin-left: 30px;
+
+        }
+
       
       .clearfix::after {
         content: "";
         display: table;
         clear: both;
       }
-
 }
 
 @media (min-width: 1024px) {
@@ -305,5 +333,8 @@ span a {
       margin-top: 5px;
     }
 
+    .footer-nav  {
+      margin-right: 15px;
+    }
 
 }
