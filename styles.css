@@ -49,7 +49,6 @@ width: 100%;
 
 .wrapper {
 width: 100%;
-
 }
 
 .contains {
@@ -152,6 +151,8 @@ span a {
 
 @media (min-width: 768px) {
 
+
+
     .main-nav li {
       list-style-type: none;
       display: inline-block;
@@ -186,17 +187,19 @@ span a {
          768px  columns
 --------------------------------- */
 
-.contains {
-    padding: 0;
-    margin: 0 auto;
-  }
+    .contains {
+      padding: 0;
+      margin: 0 auto;
+    }
 
     .col {
       width: 50%;
+      height: 410px;
     }
 
     .col p {
       font-size: 1.125em;
+      padding: 0 20px 0 20px;
     }
 
     .left{
@@ -237,5 +240,70 @@ span a {
 }
 
 @media (min-width: 1024px) {
+
+  .main-header {
+    position: relative;
+    }
+
+
+    .profile{
+       width: 95%;;
+       padding: 0 10px;
+      }
+
+    .folio-title {
+      margin: 40px 0;
+    }
+
+    .name {
+      text-align: left;
+      padding: 30px 0 30px 45px;
+      
+    }  
+
+    .profile-img {
+      margin-left: 30px;
+      padding-left: 0;
+      width: 40%;
+    }
+
+    .main-nav {
+      position: absolute;
+      bottom: 25px;
+      right: 15px;
+    }
+
+    .main-nav li {
+      padding: 0;
+      padding-right: 10px;
+    }
+
+    .contains {
+      width: 95%;
+    }
+
+    .col {
+      width: 33.33%;
+      float: left;
+      padding: 0;
+    }
+
+    .col p {
+      font-size: 15px;
+    }
+
+    .right, .left {
+      padding: 10px;
+      padding-top: 0;
+    }
+
+    p span {
+      margin-top: 5px;
+    }
+
+    p span a {
+      margin-top: 5px;
+    }
+
 
 }
