@@ -125,7 +125,7 @@ width: 100%;
 .myname{
   float: left;
   font-size: .8em;
-
+  padding-top: 9px;
 }
 
 span a {
@@ -233,6 +233,7 @@ span a {
       .last {
         margin: 0 auto;
         width: 90%;
+        padding-bottom: 20px;
       }
 
       .last span a {
@@ -335,6 +336,14 @@ span a {
 
     .footer-nav  {
       margin-right: 15px;
+    }
+
+    .last{
+      padding-bottom: 0;
+    }
+
+    .myname {
+      padding-top: 2px;
     }
 
 }
