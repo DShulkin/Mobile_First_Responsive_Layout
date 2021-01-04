@@ -1,2 +1,2 @@
 # Mobile_First_Responsive_Layout
- Teech Degree Proejct 2
+ Tech Degree Proejct 2
